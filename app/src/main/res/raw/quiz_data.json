@@ -1,0 +1,274 @@
+{
+  "preguntes": [
+    {
+      "id": 1,
+      "pregunta": "Quin és el limit de velocitat en una carretera convencional amb vorera no pavimentada per a turismes?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "70 km/h",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "90 km/h",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "100 km/h",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "120 km/h",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://autoescuelagala.com/wp-content/uploads/2021/07/imagen-cabecera-generica-landing-sedes.jpg"
+    },
+    {
+      "id": 2,
+      "pregunta": "Quin tipus de senyal indica una obligació?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Senyal triangular",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Senyal rodona amb fons blau",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Senyal rectangular",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Senyal en forma de rombe",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://www.amv.es/territorio-amv/Portals/0/autoescuela.jpg?ver=2018-09-10-123637-743"
+    },
+    {
+      "id": 3,
+      "pregunta": "Quina és la distància mínima que has de mantenir amb el vehicle que tens davant en una via urbana?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "10 metres",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Segons la velocitat i les condicions",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "30 metres",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "No hi ha una distància mínima establerta",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://emprendedores.es/wp-content/uploads/iStock-1154123982-e1639041735954-1024x575.jpg"
+    },
+    {
+      "id": 4,
+      "pregunta": "Quin és l'interval de temps recomanat per revisar la pressió dels pneumàtics?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Cada 3 mesos",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Cada mes",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Cada 6 mesos",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Només abans d'un viatge llarg",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://autoescuelamolinamalaga.es/wp-content/uploads/2020/12/test-examen-autoescuela.jpg"
+    },
+    {
+      "id": 5,
+      "pregunta": "Què has de fer si el semàfor està en groc intermitent?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Continuar sense aturar-te",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Aturar-te completament",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Circular amb precaució",
+          "correcta": true
+        },
+        {
+          "id": 4,
+          "resposta": "Canviar de direcció",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://okdiario.com/img/2017/11/22/sabes-por-que-los-colores-de-los-semaforos-son-asi.jpg"
+    },
+    {
+      "id": 6,
+      "pregunta": "Què indica una línia contínua al centre de la carretera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Prohibició d'avançar",
+          "correcta": true
+        },
+        {
+          "id": 2,
+          "resposta": "Zona d'aparcament",
+          "correcta": false
+        },
+        {
+          "id": 3,
+          "resposta": "Límit de velocitat",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Camí preferencial",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://www.motociclismo.es/uploads/s1/11/80/22/02/linea-continua.jpeg"
+    },
+    {
+      "id": 7,
+      "pregunta": "Quina d'aquestes situacions requereix l'ús dels llums antiboira posteriors?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "En cas de pluja intensa",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Quan hi ha boira espessa",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Durant la nit",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "En vies urbanes",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://s1.abcstatics.com/media/motor/2021/11/08/conducir-niebla-U74753807310Bxc-1248x698@abc.jpg"
+    },
+    {
+      "id": 8,
+      "pregunta": "Quin és el límit màxim de velocitat en autopistes per a turismes a Espanya?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "100 km/h",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "120 km/h",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "130 km/h",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "140 km/h",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2020/02/diferencia-autopista-autovia-1860483.jpg"
+    },
+    {
+      "id": 9,
+      "pregunta": "Quin dels següents elements és obligatori portar en el vehicle?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Un extintor",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Un pneumàtic de recanvi",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Un gat hidràulic",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Un bidó de combustible",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://desguaceslacabaña.com/blog/wp-content/uploads/2017/01/piezas-coche-1.jpg"
+    },
+    {
+      "id": 10,
+      "pregunta": "Què significa una senyal de circulació amb fons blau i una fletxa blanca?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Obligació de girar a l'esquerra",
+          "correcta": false
+        },
+        {
+          "id": 2,
+          "resposta": "Obligació de girar a la dreta",
+          "correcta": true
+        },
+        {
+          "id": 3,
+          "resposta": "Finalització d'una prohibició",
+          "correcta": false
+        },
+        {
+          "id": 4,
+          "resposta": "Zona de parada obligatòria",
+          "correcta": false
+        }
+      ],
+      "imatge": "https://img.freepik.com/fotos-premium/senal-trafico-cuadrada-flecha-blanca-sobre-fondo-cielo-azul_262288-1089.jpg"
+    }
+  ]
+}
