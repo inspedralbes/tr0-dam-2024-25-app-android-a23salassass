@@ -7,22 +7,29 @@
         {
           "id": 1,
           "resposta": "70 km/h",
-          "correcta": false
+          "correcta": false,
+          "count": 0
         },
         {
           "id": 2,
           "resposta": "90 km/h",
-          "correcta": true
+          "correcta": true,
+          "count": 0
+
         },
         {
           "id": 3,
           "resposta": "100 km/h",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 4,
           "resposta": "120 km/h",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         }
       ],
       "imatge": "https://autoescuelagala.com/wp-content/uploads/2021/07/imagen-cabecera-generica-landing-sedes.jpg"
@@ -34,7 +41,9 @@
         {
           "id": 1,
           "resposta": "Senyal triangular",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 2,
@@ -44,11 +53,14 @@
         {
           "id": 3,
           "resposta": "Senyal rectangular",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 4,
           "resposta": "Senyal en forma de rombe",
+          "count": 0,
           "correcta": false
         }
       ],
@@ -61,22 +73,30 @@
         {
           "id": 1,
           "resposta": "10 metres",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 2,
           "resposta": "Segons la velocitat i les condicions",
-          "correcta": true
+          "correcta": true,
+          "count": 0
+
         },
         {
           "id": 3,
           "resposta": "30 metres",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 4,
           "resposta": "No hi ha una distància mínima establerta",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         }
       ],
       "imatge": "https://emprendedores.es/wp-content/uploads/iStock-1154123982-e1639041735954-1024x575.jpg"
@@ -88,22 +108,30 @@
         {
           "id": 1,
           "resposta": "Cada 3 mesos",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 2,
           "resposta": "Cada mes",
-          "correcta": true
+          "correcta": true,
+          "count": 0
+
         },
         {
           "id": 3,
           "resposta": "Cada 6 mesos",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 4,
           "resposta": "Només abans d'un viatge llarg",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         }
       ],
       "imatge": "https://autoescuelamolinamalaga.es/wp-content/uploads/2020/12/test-examen-autoescuela.jpg"
@@ -115,22 +143,30 @@
         {
           "id": 1,
           "resposta": "Continuar sense aturar-te",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 2,
           "resposta": "Aturar-te completament",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 3,
           "resposta": "Circular amb precaució",
-          "correcta": true
+          "correcta": true,
+          "count": 0
+
         },
         {
           "id": 4,
           "resposta": "Canviar de direcció",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         }
       ],
       "imatge": "https://okdiario.com/img/2017/11/22/sabes-por-que-los-colores-de-los-semaforos-son-asi.jpg"
@@ -142,22 +178,28 @@
         {
           "id": 1,
           "resposta": "Prohibició d'avançar",
-          "correcta": true
+          "correcta": true,
+          "count": 0
+
         },
         {
           "id": 2,
           "resposta": "Zona d'aparcament",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 3,
           "resposta": "Límit de velocitat",
-          "correcta": false
+          "correcta": false,
+          "count": 0
         },
         {
           "id": 4,
           "resposta": "Camí preferencial",
-          "correcta": false
+          "correcta": false,
+          "count": 0
         }
       ],
       "imatge": "https://www.motociclismo.es/uploads/s1/11/80/22/02/linea-continua.jpeg"
@@ -169,22 +211,30 @@
         {
           "id": 1,
           "resposta": "En cas de pluja intensa",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 2,
           "resposta": "Quan hi ha boira espessa",
-          "correcta": true
+          "correcta": true,
+          "count": 0
+
         },
         {
           "id": 3,
           "resposta": "Durant la nit",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 4,
           "resposta": "En vies urbanes",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         }
       ],
       "imatge": "https://s1.abcstatics.com/media/motor/2021/11/08/conducir-niebla-U74753807310Bxc-1248x698@abc.jpg"
@@ -196,22 +246,30 @@
         {
           "id": 1,
           "resposta": "100 km/h",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 2,
           "resposta": "120 km/h",
-          "correcta": true
+          "correcta": true,
+          "count": 0
+
         },
         {
           "id": 3,
           "resposta": "130 km/h",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 4,
           "resposta": "140 km/h",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         }
       ],
       "imatge": "https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2020/02/diferencia-autopista-autovia-1860483.jpg"
@@ -223,22 +281,30 @@
         {
           "id": 1,
           "resposta": "Un extintor",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 2,
           "resposta": "Un pneumàtic de recanvi",
-          "correcta": true
+          "correcta": true,
+          "count": 0
+
         },
         {
           "id": 3,
           "resposta": "Un gat hidràulic",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 4,
           "resposta": "Un bidó de combustible",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         }
       ],
       "imatge": "https://desguaceslacabaña.com/blog/wp-content/uploads/2017/01/piezas-coche-1.jpg"
@@ -250,22 +316,30 @@
         {
           "id": 1,
           "resposta": "Obligació de girar a l'esquerra",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 2,
           "resposta": "Obligació de girar a la dreta",
-          "correcta": true
+          "correcta": true,
+          "count": 0
+
         },
         {
           "id": 3,
           "resposta": "Finalització d'una prohibició",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         },
         {
           "id": 4,
           "resposta": "Zona de parada obligatòria",
-          "correcta": false
+          "correcta": false,
+          "count": 0
+
         }
       ],
       "imatge": "https://img.freepik.com/fotos-premium/senal-trafico-cuadrada-flecha-blanca-sobre-fondo-cielo-azul_262288-1089.jpg"

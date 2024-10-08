@@ -2,6 +2,7 @@ package com.example.pr01
 
 data class Resposta(
     val id: Int,
+    val count: Int,
     val resposta: String,
     val correcta: Boolean
 )

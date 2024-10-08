@@ -1,5 +1,6 @@
 package com.example.pr01
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.google.gson.Gson
@@ -75,7 +76,10 @@ fun QuizScreen(quiz: Quiz) {
 
         // Mostrar las respuestas
         currentQuestion.respostes.forEach { resposta ->
-            Button(onClick = { /* Manejar selección de respuesta */ }) {
+            Button(onClick = { /*
+            crear el metodo que el usuario quiera*/
+            }
+            ) {
                 Text(text = resposta.resposta
                 )
             }
@@ -91,6 +95,11 @@ fun QuizScreen(quiz: Quiz) {
         }) {
             Text("Següent")
         }
+
+        val cambioColor : Button = findViewById(R.id.buttonDePrueba)
+        //Cambia el color del texto luego de hacer click
+        cambioColor.setOnClickListener { cambioColor.setTextColor(Color.parseColor("#9E9E9E")) }
+
     }
 }
 
