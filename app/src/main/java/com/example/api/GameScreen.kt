@@ -22,12 +22,10 @@ fun GameScreen(navController: NavHostController, preguntas: List<Pregunta>) {
     var tempsPassat by remember { mutableIntStateOf(0) }
     var selectedAnswer by remember { mutableStateOf<Resposta?>(null) }
 
-    // Lista para almacenar las estadísticas de cada pregunta
     val listaDePreguntasEstadisticas = remember { mutableStateListOf<PreguntaEstadistica>() }
 
-    // Lógica para incrementar el tiempo pasado
     LaunchedEffect(key1 = currentQuestionIndex) {
-        tempsPassat = 0 // Reinicia el tiempo para la nueva pregunta
+        tempsPassat = 0 
         while (currentQuestionIndex < preguntas.size) {
             delay(1000L)
             tempsPassat++
@@ -51,10 +49,9 @@ fun GameScreen(navController: NavHostController, preguntas: List<Pregunta>) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Mostrar las respuestas
         currentQuestion.respostes.forEach { resposta ->
             Button(onClick = {
-                selectedAnswer = resposta // Almacenar la respuesta seleccionada
+                selectedAnswer = resposta 
 
                 if (resposta.correcta) {
                     respostesCorrectes++
@@ -62,25 +59,21 @@ fun GameScreen(navController: NavHostController, preguntas: List<Pregunta>) {
                     incorrectes++
                 }
 
-                // Guardar la estadística de la pregunta actual antes de pasar a la siguiente
                 val preguntaEstadistica = PreguntaEstadistica(
                     questionId = currentQuestion.id.toString(),
                     questionText = currentQuestion.pregunta,
-                    correct = resposta.correcta, // Verificar si la respuesta fue correcta
+                    correct = resposta.correcta,
                     timeElapsed = tempsPassat
                 )
                 listaDePreguntasEstadisticas.add(preguntaEstadistica)
 
-                // Avanzar a la siguiente pregunta si no es la última
                 if (currentQuestionIndex < preguntas.size - 1) {
                     currentQuestionIndex++
-                    selectedAnswer = null // Reiniciar la respuesta seleccionada
+                    selectedAnswer = null 
                 } else {
-                    // Enviar estadísticas al servidor cuando se terminen las preguntas
-                    val userId: String? = null // Aquí asignas el valor de userId
+                    val userId: String? = null 
                     enviarEstadisticasAlServidor(userId, listaDePreguntasEstadisticas)
 
-                    // Navegar a la pantalla de estadísticas
                     navController.navigate("stats_screen/$respostesCorrectes/$incorrectes/$tempsPassat")
                 }
             }) {
