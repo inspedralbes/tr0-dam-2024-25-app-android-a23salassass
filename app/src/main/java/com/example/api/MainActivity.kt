@@ -39,11 +39,11 @@ class MainActivity : ComponentActivity() {
                         }
 
                         composable(
-                            route = "stats_screen/{respostesCorrectes}/{incorrectes}/{tempsPassat}", // Asegúrate de que esté definida con 3 parámetros
+                            route = "stats_screen/{respostesCorrectes}/{incorrectes}/{tempsPassat}",
                             arguments = listOf(
                                 navArgument("respostesCorrectes") { type = NavType.IntType },
                                 navArgument("incorrectes") { type = NavType.IntType },
-                                navArgument("tempsPassat") { type = NavType.IntType }  // Añadir el argumento del tiempo
+                                navArgument("tempsPassat") { type = NavType.IntType }  
                             )
                         ) { backStackEntry ->
                             StatsScreen(navController, backStackEntry)
@@ -91,7 +91,6 @@ fun enviarEstadisticasAlServidor(
         preguntas = preguntas
     )
 
-    // Enviar estadisticas usando Retrofit (en una corrutina)
     CoroutineScope(Dispatchers.IO).launch {
         try {
             val response = RetrofitInstance.api.enviarEstadisticas(estadisticas)
